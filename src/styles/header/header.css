@@ -1,0 +1,196 @@
+.burgerIcon {
+    text-align: center;
+}
+.fixedNav {
+    background-color: white;
+    z-index: 1;
+    height: 100px;
+}
+.ant-layout-header {
+    background-color: white;
+    padding: 0 0 0 0;
+    height: auto;
+}
+.social img {
+    height: 100%;
+}
+.social {
+    align-items: flex-end;
+    align-self: center;
+}
+.ant-layout-header .logo img {
+    border-radius: 63%;
+    width: 79px;
+}
+.fixedNav .Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    line-height: 1px;
+    text-align: center;
+
+}
+.menuItem {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+.fixedNav .Menu .menuItem {
+    
+    padding: 5px 5px 5px 5px;
+    
+    text-align: center;
+    align-self: center;
+    line-height: 1.5;
+
+}
+.fixedNav .ant-row {
+    align-items: center;
+    padding: 5px 0 15px 0;
+
+}
+
+.titleLogo {
+    height: auto;
+    width: auto;
+    background: url('../../media/h.png') 100% 100% no-repeat;
+    /* background-size: cover; */
+    background-position: top;
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 10%;
+    margin-top: 100px;
+}
+.MainTextHeader {
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 52px;
+    
+}
+.MiniTextHeader {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 30.6px;
+}
+.goToOrderButton {
+    background-color: #FFDF2B;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 14px 70px 14px 70px;
+    color: black;
+    text-decoration: none;
+    margin-top: 400px;
+}
+.Burger {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    padding: 20px 0 0 20px;
+
+}
+.Burger .Menu {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.Burger .Menu a {
+    font-size: 16px;
+    font-weight: 300;
+}
+.Burger .svyaz p {
+    line-height: 20px;
+    margin-bottom:0;
+    font-size: 10px;
+}
+.Burger .svyaz .mail {
+    font-weight: 300;
+}
+@media screen and (max-width: 992px) {
+    .MiniTextHeader {
+        display: none;
+    }
+    .MainTextHeader {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .titleLogo {
+        height: auto;
+        width: 100%;
+        background: url('../../media/logoMob.png') no-repeat;
+        background-position: top center;
+        background-size: 100% 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Burger .Menu a {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 2.5;
+    }
+    .Burger {
+        padding-top: 10px;
+    }
+    .titleLogo {
+        margin-top: 60px;
+        padding-top: 30px;
+    }
+    .goToOrderButton {
+        padding: 6px 15px 6px 15px;
+        font-size: 10px;
+    }
+    .MainTextHeader {
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 400;
+    }
+    .ant-layout-header .logo img {
+        border-radius: 63%;
+        width: 50px;
+    }
+    .fixedNav .ant-row{
+        height: 60px;
+        padding: 0 0 0 0;
+    }
+    .fixedNav {
+        height: 60px;
+    }
+
+    
+
+}
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    .MainTextHeader {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 200;
+    }
+    .goToOrderButton {
+        padding: 6px 35px 6px 35px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1092px) and (min-width: 768px) {
+    .MainTextHeader {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .MiniTextHeader {
+        font-size: 15px;
+    }
+    
+
+}
+@media screen and (min-width: 1092px) and (max-width: 1300px) {
+    .MainTextHeader {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    
+
+}

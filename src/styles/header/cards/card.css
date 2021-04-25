@@ -1,0 +1,173 @@
+.card {
+    border: 1px black solid;
+    padding: 20px 0 20px 0;
+    border-radius: 25px;
+
+}
+.headCard {
+    display: flex;
+}
+.card .logoButton {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.card .logoButton p {
+    text-align: center;
+    font-size: 10px;
+}
+.card .logoButton img {
+    object-fit:cover;
+    width: 200px;
+}
+.card .ContentCard {
+    width: 100%;
+    /* align-self: center; */
+}
+.card h3 {
+    font-size: 42px;
+}
+.card p span {
+    font-weight: bolder;
+}
+.firstColumn {
+    border-right: 1px black solid;
+}
+
+.card .docs {
+    width: 100%;
+}
+.card .footCard {
+    width: 100%;
+    margin-top: 15px;
+}
+/* @media screen and (min-width: 590px) {
+
+    .card .ContentCard .ant-row {
+        flex-direction: column;
+    }
+
+
+} */
+.trebList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.zagolovok{ 
+    align-self: center;
+}
+.treb .zagolovok p {
+    display: inline;
+}
+.treb {
+    width: 100%;
+    font-size: 12px;
+}
+.thirdStage {
+    width: 100%;
+    display: flex;
+}
+.treb span {
+    background-color: #FFDF2B;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    word-wrap: normal;
+    height: auto;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.treb .zagolovok {
+    text-align: end;
+}
+@media screen and (max-width: 580px) {
+    .firstColumn {
+        border-right: 0px;
+    }
+    .card .logoButton p {
+        text-align: center;
+        font-size: 8px;
+    }
+    .treb .zagolovok {
+        text-align: start;
+        margin-left: 10px;
+    }
+    .card p{
+        font-size: 9px;
+    }
+    .card .ContentCard {
+        flex-direction: column;
+        padding-top: 3px;
+
+    }
+    .card h3 {
+        font-size: 15px;
+    }
+    .logoButton {
+        padding: 0 15px 15px 15px;
+    }
+    .card .logoButton img {
+        width: 110px;
+    }
+    .card .age {
+        height: 0;
+    }
+    .card .classicButton {
+        padding: 3px;
+        width: 105px;
+        font-size: 12px;
+    }
+    
+    .card .ant-row p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .mainInfo {
+        /* border-bottom: 1px black solid; */
+    }
+    .card .footCard img {
+        width: 30px;
+    }
+    .thirdStage {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainRow > div:not(:last-child) {
+        border-bottom: 1px black solid;
+        margin-bottom: 10px;
+    }
+    .treb span {
+        font-size: 10px;
+    }
+
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .treb .zagolovok {
+        text-align: start;
+        margin-left: 10px;
+    }
+    .card h3 {
+        font-size: 20px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .card .firstColumn span, .card .mainInfo span {
+        display: block;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .card .firstColumn span, .card .mainInfo span {
+        display: block;
+    }
+    .logoButton {
+        margin: 0 10px 0 10px;
+    }
+}

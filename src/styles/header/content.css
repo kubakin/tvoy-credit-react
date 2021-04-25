@@ -1,0 +1,70 @@
+.ant-layout-content .ant-row{
+    background-color: white;
+}
+.ant-layout-content .tag p{
+    font-size: 20px;
+    text-align: justify;
+}
+.ant-layout-content .tag {
+    padding: 5%
+}
+.OrdersNav h2{
+    width: 100%;
+    background-color: #FFDF2B;
+    line-height: 50px;
+}
+.OrdersNav .Menu {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+} 
+.OrdersNav .Menu .classicButton {
+    width: 250px;
+    margin: 20px 10px 10px 10px;
+}
+.OrdersNav .Menu .classicButton a {
+    background-color: white;
+}
+.OrdersNav .Menu .kek a {
+    background-color: #FFDF2B;
+
+}
+h2 {
+    margin-top: 5%;
+}
+.OrdersNav .Menu {
+    padding: 0 10% 0 10%;
+}
+@media screen and (max-width: 1092px) {
+    .ant-layout-content .tag p{
+        font-size: 14px;
+    }
+    .OrdersNav .Menu .classicButton{
+        width: 175px;
+        margin: 15px 5px 5px 5px;
+        padding: 10px
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .OrdersNav .Menu .classicButton{
+        width: 120px;
+        padding: 7px;
+        margin: 10px 5px 5px 5px;
+    }
+    .OrdersNav .Menu .classicButton a{
+        font-size: 8px;
+    }
+    .OrdersNav .Menu {
+        padding: 0 0 0 0;
+    }
+    .OrdersNav .Menu a {
+        font-size: 8xpx;
+    }
+    .OrdersNav h2 {
+        line-height: 25px;
+    }
+
+}
+
+

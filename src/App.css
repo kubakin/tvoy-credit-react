@@ -1,0 +1,8 @@
+@import '~antd/dist/antd.css';
+@import './styles/header/header.css';
+@import './styles/header/global.css';
+@import './styles/header/content.css';
+@import './styles/header/cards/card.css';
+@import './styles/header/footer.css';
+
+
