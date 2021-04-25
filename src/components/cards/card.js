@@ -14,7 +14,7 @@ function Card(props) {
     <div className="headCard">
       <div className='logoButton'>
         
-        <img src={'/' + img} alt="" />
+        <img src={window.location.origin +'/try/' + img} alt="" />
         <p>{text}</p>
         <a href={href} className='classicButton yellow'>Оформить заявку</a>
       </div>
