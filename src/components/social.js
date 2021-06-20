@@ -11,15 +11,15 @@ function Social() {
     <div className="App">
       <Row className='social'>
         <Col sm={0} xs={0}  md={0} xl={24}>
-      <img alt='Vk' src={Vk}></img>
-      <img alt='Inst' src={Inst}></img>
-      <img alt='Tg' src={Tg}></img>
+        <a target="_blank" rel="noreferrer" href="https://vk.com/tvoy_credit"><img alt='Vk' src={Vk}></img></a>
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/tvoy.credit/"><img alt='Inst' src={Inst}></img></a>
+      <a target="_blank" rel="noreferrer" href="https://t.me/tvoy_credit"><img alt='Tg' src={Tg}></img></a>
       </Col>
       <Col xl={0}sm={24} xs={24} md={24}>
         <Space size={15}>
-      <img alt='Vk' src={VkMob}></img>
-      <img alt='Inst' src={InstMob}></img>
-      <img alt='Tg' src={TgMob}></img>
+      <a target="_blank" rel="noreferrer" href="https://vk.com/tvoy_credit"><img alt='Vk' src={VkMob}></img></a>
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/tvoy.credit/"><img alt='Inst' src={InstMob}></img></a>
+      <a target="_blank" rel="noreferrer" href="https://t.me/tvoy_credit"><img alt='Tg' src={TgMob}></img></a>
       </Space>
       </Col>
       </Row>

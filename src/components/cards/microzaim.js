@@ -3,6 +3,7 @@ import React from 'react';
 function Microzaim(props) {
   const { second, first, poluchenie, vozrast } = props.data;
   return (
+    <div className='microzaim'> 
     <Row className='mainRow'>
       <Col offset={1} xxl={11} sm={11} xs={20} xl={11} className='firstColumn mainInfo'>
         <p><span>На первый займ</span></p>
@@ -26,6 +27,7 @@ function Microzaim(props) {
       </Col>
       </div>
     </Row>
+    </div>
   );
 }
 

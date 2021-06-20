@@ -1,21 +1,23 @@
 import React from 'react'
 import { Row, Col} from 'antd'
+import { Link as Lnk } from "react-scroll";
+
 function TitleLogo() {
   return (
     <div className='titleLogo'>
       <Row >
         <Col xs={16} offset={3} md={15} lg={12} xxl={9}>
-            <p className='MainTextHeader'>Твой кредит предоставляет огромный спектр эксклюзивных финансовых продуктов. С нами Вы откроете высочайший уровень профессионального сервиса по подбору кредитных решений.</p>
+            <p className='MainTextHeader'>Твой Кредит — помощник в подборе кредитных решений с максимальной выгодой для Вас.</p>
         </Col>
       </Row>
       <Row>
-        <Col offset={3} md={12} lg={10} xxl={8} xl={10}>
-            <p className='MiniTextHeader'>Мы больше, чем просто агрегатор. Мы Ваш финансовый помощник! Нашей главной задаче является помочь Вам преодолеть финансовые трудности с максимальной выгодой.</p>
+        <Col offset={3} xs={16} md={12} lg={10} xxl={8} xl={10}>
+            <p className='MiniTextHeader'>Мы - сервис по подбору кредитных и финансовых продуктов без скрытых условий от кредитных организаций.</p>
         </Col>
       </Row>
       <Row>
         <Col offset={3} md={15} lg={7}>
-          <a href='qwe' className='goToOrderButton'>Перейти к услугам</a>
+        <Lnk className='goToOrderButton' to='goToOrderButton' smooth={true}>Перейти к услугам</Lnk>
         </Col>
       </Row>
     </div>

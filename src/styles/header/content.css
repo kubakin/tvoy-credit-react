@@ -14,12 +14,12 @@
     line-height: 50px;
 }
 .OrdersNav .Menu {
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     display: flex;
 } 
 .OrdersNav .Menu .classicButton {
-    width: 250px;
+    width: 220px;
     margin: 20px 10px 10px 10px;
 }
 .OrdersNav .Menu .classicButton a {
@@ -35,22 +35,16 @@ h2 {
 .OrdersNav .Menu {
     padding: 0 10% 0 10%;
 }
-@media screen and (max-width: 1092px) {
-    .ant-layout-content .tag p{
-        font-size: 14px;
-    }
-    .OrdersNav .Menu .classicButton{
-        width: 175px;
-        margin: 15px 5px 5px 5px;
-        padding: 10px
-    }
-
+.OrdersNav .Menu>div{
+    margin: auto 0 auto 0;
 }
+
 @media screen and (max-width: 576px) {
     .OrdersNav .Menu .classicButton{
-        width: 120px;
+        width: 130px;
         padding: 7px;
-        margin: 10px 5px 5px 5px;
+        margin: 10px 3px 4px 3px;
+
     }
     .OrdersNav .Menu .classicButton a{
         font-size: 8px;
@@ -68,3 +62,14 @@ h2 {
 }
 
 
+@media screen and (min-width:576px) and (max-width: 1092px) {
+    .ant-layout-content .tag p{
+        font-size: 14px;
+    }
+    .OrdersNav .Menu .classicButton{
+        width: 175px;
+        margin: 15px 5px 5px 5px;
+        padding: 10px
+    }
+
+}

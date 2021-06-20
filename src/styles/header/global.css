@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 .fixedCombine {
     position: fixed;
     z-index: 2;
@@ -40,6 +43,12 @@ h2 {
 a {
     text-decoration: none;
 }
+.keys {
+    background-color: #161616;
+    font-size: 8px;
+    color: #161616;
+    height: 100%;
+}
 @media screen and (max-width: 580px) {
     a {
         font-size: 5px;
@@ -57,7 +66,18 @@ a {
         font-weight: 400;
         line-height: 20px;
     }
+    /* #vk_community_messages iframe {
+        max-width: 100% !important;
 
+    }    
+    #vk_community_messages iframe {
+        width: 100% !important;
+        } */
+        #vk_community_messages {
+            /* width: 100%!important; */
+            /* left:-25px; */
+            display: none;
+        }
 
 }
 
@@ -65,6 +85,15 @@ a {
     .classicButton {
         padding: 14px;
     }
+    /* #vk_community_messages iframe {
+        max-width: 100% !important;
+    }    
+    #vk_community_messages iframe {
+        width: 100% !important;
+        }
+        #vk_community_messages {
+            width: 100%!important;
+        } */
 }
 
 .yellow {
@@ -77,6 +106,17 @@ a {
 
 }
 
+    
+
 body #root .active {
     font-weight: 900;
 }
+@media screen and (min-width: 1300px) {
+    
+    .card .classicButton {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+

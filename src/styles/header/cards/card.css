@@ -2,7 +2,8 @@
     border: 1px black solid;
     padding: 20px 0 20px 0;
     border-radius: 25px;
-
+    margin-bottom: 5%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
 }
 .headCard {
     display: flex;
@@ -16,7 +17,7 @@
 }
 .card .logoButton p {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
 }
 .card .logoButton img {
     object-fit:cover;
@@ -162,12 +163,24 @@
     .card .firstColumn span, .card .mainInfo span {
         display: block;
     }
+    .card .microzaim .firstColumn span, .card .microzaim .mainInfo span {
+        display: inline-block;
+    }
 }
 @media screen and (min-width: 1300px) {
     .card .firstColumn span, .card .mainInfo span {
         display: block;
     }
+    .card .microziam .firstColumn span, .card .microzaim .mainInfo span {
+        display: inline-block;
+    }
     .logoButton {
         margin: 0 10px 0 10px;
+    }
+    .card .mainRow {
+        font-size: 20px;
+    }
+    .card .logoButton .classicButton {
+        font-size: 20px;
     }
 }

@@ -2,9 +2,9 @@ import { Col } from 'antd';
 import React from 'react';
 function Trebov(props) {
   const { treb } = props;
-  const lst = treb.map(i => {
+  const lst = treb.map((i,key) => {
     return (
-      <span>{i}</span>
+      <span key={key}>{i}</span>
     )
   })
   return (

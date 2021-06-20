@@ -5,30 +5,30 @@ import Menu from './menu';
 import Social from '../components/social';
 function Burger() {
     const status = useContext(BurgerStatus);
+    let cls = ''
     if(status) {
+        cls = 'visible';
+    }
+    else {
+        cls = 'not-visible'
+    }
         return (
             <>
             <Row>
-                <Col offset={12} className="Burger">
+                <Col offset={12} className={"Burger "+cls}>
             <Menu/>
       <Social/>
 
             <div className='svyaz'>
             <p> Корпоративная почта</p>
-            <p class='mail'>po4ta@yandex.ru</p>
+            <p className='mail'>tvoy.credit.feedback@gmail.com</p>
             </div>
           </Col>
           </Row>
           </>
         );
     }
-    else {
-        return (
-            <>
-            </>
-        )
-    }
   
-}
+
 
 export default Burger;

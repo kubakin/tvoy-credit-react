@@ -29,6 +29,14 @@
     margin-top: 20px;
 
 }
+.footer .social {
+    float: right;
+}
+.disclaimer, .disclaimer, .by, .tag {
+    /* display: none; */
+    margin-top:20px;
+
+}
 @media screen and (max-width: 992px) {
    
 }
@@ -36,6 +44,9 @@
     .ant-layout-footer .footer .Menu a {
         font-size: 10px;
         line-height: 1;
+    }
+    .footer .social img {
+        width: 20px;
     }
     .ant-layout-footer {
         padding: 30px 0 30px 0;
@@ -58,9 +69,7 @@
         margin-top: 0px;
     
     }
-    .disclaimer, .disclaimer, .by, .tag {
-        display: none;
-    }
+
 
 }
 @media screen and (max-width: 768px) and (min-width: 500px) {
@@ -80,7 +89,7 @@
         margin-top: 40px;
     }
     .disclaimer, .disclaimer, .by, .tag {
-        display: none;
+        /* display: none; */
     }
 }
 @media screen and (max-width: 1092px) and (min-width: 768px) {
@@ -102,7 +111,8 @@
 
 }
 @media screen and (min-width: 1092px) and (max-width: 1300px) {
-   
-    
+    .ant-layout-footer .navFoot .disclaimer p {
+        font-size: 18px;
+    }
 
 }

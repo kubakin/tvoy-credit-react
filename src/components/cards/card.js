@@ -14,9 +14,9 @@ function Card(props) {
     <div className="headCard">
       <div className='logoButton'>
         
-        <img src={window.location.origin +'/try/' + img} alt="" />
+        <img src={window.location.origin +'/' + img} alt="" />
         <p>{text}</p>
-        <a href={href} className='classicButton yellow'>Оформить заявку</a>
+        <a href={href} target="_blank" rel="noreferrer" className='classicButton yellow'>Оформить заявку</a>
       </div>
       <div className='ContentCard'>
         <Row>
@@ -35,7 +35,7 @@ function Card(props) {
     </Row>
     <Row className='docs'>
       {(trebDoc !== undefined)  ?  <Col offset={1} span={22}>
-          <p>Подтверждение дохода(1 документ на выбор): {trebDoc}</p>
+          <p>Подтверждение дохода (1 документ на выбор): {trebDoc}</p>
         </Col> : ''}
     </Row>
     <Row className='treb'>
